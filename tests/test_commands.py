@@ -1,5 +1,8 @@
 import pytest
 from app import App
+# tests/test_commands.py
+from app.commands import CommandHandler, Command
+
 
 def simulate_user_input(inputs):
     return lambda _: next(inputs)
