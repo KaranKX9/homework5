@@ -1,7 +1,7 @@
 import pytest
 from app import App
 # tests/test_commands.py
-from app.commands import CommandHandler, Command
+from app import app
 
 
 def simulate_user_input(inputs):
